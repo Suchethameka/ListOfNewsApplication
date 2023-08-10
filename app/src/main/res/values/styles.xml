@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ... other style attributes ... -->
+
+        <!-- Define the ActionBar overlay theme -->
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+
+        <!-- Define the PopupOverlay style -->
+        <item name="android:popupMenuStyle">@style/MyPopupMenuStyle</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <!-- Customize ActionBar attributes here -->
+        <item name="android:elevation">0dp</item> <!-- Remove shadow/elevation if needed -->
+        <item name="android:background">@color/random_action_bar_color</item> <!-- Use the color resource here -->
+    </style>
+
+    <style name="MyPopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <!-- Customize PopupMenu attributes here -->
+        <item name="android:popupBackground">@color/random_popup_menu_background_color</item>
+    </style>
+
+</resources>

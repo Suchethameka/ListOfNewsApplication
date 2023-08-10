@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListOfNewsApplication</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_name">News name</string>
+    <string name="_id">id</string>
+    <string name="_description">description</string>
+    <string name="_category">category</string>
+    <string name="_author">Author</string>
+    <string name="_save">Save</string>
+</resources>
